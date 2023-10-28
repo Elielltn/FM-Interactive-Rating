@@ -22,7 +22,7 @@
   </head>
   <body>
     <!-- Rating state start -->
-    <div class="container">
+    <div id="container" class="">
       <div class="content-wrap">
         <div id="icon">
           <svg
@@ -55,23 +55,26 @@
         </div>
         <button id="button-submit">Submit</button>
       </div>
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
-      </div>
     </div>
 
-    <!-- Rating state end -->
-
-    <!-- Thank you state start -->
-
-    <!-- You selected -->
-    <!-- Add rating here -->
-    <!-- out of 5 Thank you! We appreciate you taking the time to give a rating. If
-    you ever need more support, don’t hesitate to get in touch! -->
-
-    <!-- Thank you state end -->
+    <div id="container-thank" class="hidden">
+      <div class="content-wrap-thank">
+        <img
+          class="img-thank"
+          src="/images/illustration-thank-you.svg"
+          alt="thank-you-ilustration"
+        />
+        <div id="rating"><p id="p-rating">You selected 3 out of 5</p></div>
+        <h1 id="header-thank">Thank you!</h1>
+        <div id="div-p-thank">
+          <p class="p-thank">
+            We appreciate you taking the time to give a rating.
+          </p>
+          <p class="p-thank">If you ever need more support, don’t hesitate to</p>
+          <p class="p-thank">get in touch!</p>
+        </div>
+      </div>
+    </div>
   </body>
+  <script src="script.js"></script>
 </html>
